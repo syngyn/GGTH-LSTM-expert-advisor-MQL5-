@@ -102,7 +102,7 @@ echo.
 echo 📋 Step 6: Creating project files...
 
 :: Check if Python files exist
-set FILES_NEEDED=train.py backtest.py daemon_http.py utils.py test.py SAM.mq5 ExportHistory.mq5
+set FILES_NEEDED=train.py backtest.py daemon_http.py utils.py test.py GGTH-SR.mq5 History.mq5
 set MISSING_FILES=
 
 for %%f in (%FILES_NEEDED%) do (
